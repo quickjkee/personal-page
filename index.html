@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Nikita Starodubcev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nikita Starodubcev">
+  <meta name="description" content="Nikita Starodubcev — PhD student working on generative models, diffusion models, and image editing.">
+  <link rel="icon" type="image/png" href="images/photo.png">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Nikita Starodubcev</h1>
+        <p class="bio">
+          I am a third-year PhD student at <a href="https://research.yandex.com/">Yandex Research</a> and
+          <a href="https://www.hse.ru/en/">HSE University</a>, advised by
+          <a href="https://scholar.google.com/citations?hl=ru&user=2Kv3JP0AAAAJ&view_op=list_works">Artem Babenko</a>.
+          In summer 2025, I interned at <a href="https://research.adobe.com/">Adobe Research</a>.
+          Previously, I worked at <a href="https://en.itmo.ru/">ITMO University</a> on open-source software frameworks.
+        </p>
+        <p class="bio">
+          My research focuses on efficient generative modeling, with an emphasis on diffusion and few-step models. 
+          I am particularly interested in understanding the underlying mechanisms of generative models, 
+          including how they learn, generalize, and behave.
+        </p>
+        <p class="links">
+          <a href="mailto:nstarodubtsev@hse.ru">Email</a>
+          <span>/</span>
+          <a href="https://scholar.google.ru/citations?user=o6pRm_gAAAAJ&hl=en">Google Scholar</a>
+          <span>/</span>
+          <a href="CV/cv.pdf">CV</a>
+          <span>/</span>
+          <a href="https://github.com/quickjkee">GitHub</a>
+        </p>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="images/photo.png" alt="Profile photo of Nikita Starodubcev">
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>News</h2>
+      <div class="news-list">
+        <div class="news-item"><span class="news-date">Jan 2026</span> Our paper <em>Rethinking Global Text Conditioning in Diffusion Transformers</em> was accepted as an <strong>ICLR 2026</strong>.</div>
+        <div class="news-item"><span class="news-date">Jan 2026</span> <em>Scale-wise Distillation of Diffusion Models</em> was accepted as an <strong>ICLR 2026</strong>.</div>
+        <div class="news-item"><span class="news-date">May 2025</span> Start an internship at <strong>Adobe Research</strong>, working on generative models.</div>
+        <div class="news-item"><span class="news-date">Sep 2024</span> <em>Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps</em> appeared at <strong>NeurIPS 2024</strong>.</div>
+        <div class="news-item"><span class="news-date">Feb 2024</span> <em>Your Student is Better Than Expected: Adaptive Teacher-Student Collaboration for Text-Conditional Diffusion Models</em> was accepted to <strong>CVPR 2024</strong>.</div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="section">
+      <h2>Selected publications</h2>
+
+      <article class="publication highlight-paper">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/modulation-guidance.png" alt="Teaser for Rethinking Global Text Conditioning in Diffusion Transformers">
+        </div>
+        <div class="pub-content">
+          <h3>Rethinking Global Text Conditioning in Diffusion Transformers</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>, 
+            <a href="https://scholar.google.com/citations?user=UI10l34AAAAJ&hl=en">Daniil Pakhomov</a>,
+            <a href="https://betterze.github.io/website/">Zongze Wu</a>,
+            <a href="https://github.com/free001style">Ilya Drobyshevskiy</a>,
+            <a href="https://scholar.google.com/citations?user=yYGI_XsAAAAJ&hl=en">Yuchen Liu</a>,
+            <a href="https://scholar.google.com/citations?user=opL6CL8AAAAJ&hl=en">Zhonghao Wang</a>,
+            <a href="https://scholar.google.ru/citations?user=QG2AkuYAAAAJ&hl=en">Yuqian Zhou</a>,
+            <a href="https://scholar.google.com/citations?user=R0bnqaAAAAAJ&hl=en">Zhe Lin</a>,
+            <a href="https://scholar.google.com/citations?user=NiPmk8oAAAAJ&hl=en">Dmitry Baranchuk</a>,
+          </p>
+          <p class="venue"><span class="venue-badge">ICLR 2026 Poster</span>
+          <p class="summary">
+            We show that pooled CLIP embeddings contribute little when used in the standard way,
+            but become much more useful when repurposed as a guidance signal.
+          </p>
+          <p class="pub-links">
+            <a href="https://openreview.net/forum?id=65Ai8mLfjI">OpenReview</a>
+            <a href="https://arxiv.org/abs/2602.09268">Paper</a>
+            <a href="https://github.com/quickjkee/modulation-guidance">Code</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/swd.png" alt="Scale-wise Distillation of Diffusion Models teaser">
+        </div>
+        <div class="pub-content">
+          <h3>Scale-wise Distillation of Diffusion Models</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>,
+            <a href="https://scholar.google.com/citations?user=L78B2lcAAAAJ&hl=en">Denis Kuznedelev</a>,
+            <a href="https://scholar.google.ru/citations?user=2Kv3JP0AAAAJ&hl">Artem Babenko</a>,
+            <a href="https://scholar.google.com/citations?hl=ru&user=NiPmk8oAAAAJ">Dmitry Baranchuk</a>
+          </p>
+          <p class="venue"><span class="venue-badge">ICLR 2026 Poster</span></p>
+          <p class="summary">
+            A scale-wise view of diffusion distillation inspired by spectral autoregression, achieving faster generation with strong quality retention.
+          </p>
+          <p class="pub-links">
+            <a href="https://yandex-research.github.io/swd/">Project page</a>
+            <a href="https://huggingface.co/spaces/dbaranchuk/SwD-SD3.5-Large">Demo</a>
+            <a href="https://github.com/yandex-research/swd">Code</a>
+            <a href="https://arxiv.org/pdf/2503.16397">Paper</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/invertible-cd.png" alt="Invertible Consistency Distillation teaser">
+        </div>
+        <div class="pub-content">
+          <h3>Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>,
+            <a href="https://scholar.google.com/citations?user=BWLDIa8AAAAJ&hl">Mikhail Khoroshikh</a>,
+            <a href="https://scholar.google.ru/citations?user=2Kv3JP0AAAAJ&hl">Artem Babenko</a>,
+            <a href="https://scholar.google.com/citations?hl=ru&user=NiPmk8oAAAAJ">Dmitry Baranchuk</a>
+          </p>
+          <p class="venue"><span class="venue-badge">NeurIPS 2024 Poster</span></p>
+          <p class="summary">
+            A consistency-distillation view of inversion that greatly speeds up text-guided image editing.
+          </p>
+          <p class="pub-links">
+            <a href="https://yandex-research.github.io/invertible-cd/">Project page</a>
+            <a href="https://huggingface.co/spaces/dbaranchuk/iCD-image-editing">Demo</a>
+            <a href="https://github.com/yandex-research/invertible-cd">Code</a>
+            <a href="https://arxiv.org/abs/2406.14539">Paper</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/adaptive.png" alt="Adaptive Teacher-Student Collaboration teaser">
+        </div>
+        <div class="pub-content">
+          <h3>Your Student is Better Than Expected: Adaptive Teacher-Student Collaboration for Text-Conditional Diffusion Models</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>, Artem Fedorov,
+            <a href="https://scholar.google.ru/citations?user=2Kv3JP0AAAAJ&hl">Artem Babenko</a>,
+            <a href="https://scholar.google.com/citations?hl=ru&user=NiPmk8oAAAAJ">Dmitry Baranchuk</a>
+          </p>
+          <p class="venue"><span class="venue-badge">CVPR 2024 Poster</span></p>
+          <p class="summary">
+            An adaptive teacher-student collaboration strategy showing that a distilled diffusion model can outperform its teacher while accelerating generation.
+          </p>
+          <p class="pub-links">
+            <a href="https://github.com/yandex-research/adaptive-diffusion">Code</a>
+            <a href="https://arxiv.org/abs/2312.10835">Paper</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/eff-diff.png" alt="Towards Real-time Text-driven Image Manipulation teaser">
+        </div>
+        <div class="pub-content">
+          <h3>Towards Real-time Text-driven Image Manipulation with Unconditional Diffusion Models</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>,
+            <a href="https://scholar.google.com/citations?hl=ru&user=NiPmk8oAAAAJ">Dmitry Baranchuk</a>,
+            <a href="https://scholar.google.com/citations?user=GS5HTlkAAAAJ&hl=en">Valentin Khrulkov</a>,
+            <a href="https://scholar.google.ru/citations?user=2Kv3JP0AAAAJ&hl">Artem Babenko</a>
+          </p>
+          <p class="venue"><span class="venue-badge">arXiv</span></p>
+          <p class="summary">
+            An efficient fine-tuning method for text-driven manipulation with unconditional diffusion models that runs in seconds and uses modest memory.
+          </p>
+          <p class="pub-links">
+            <a href="https://github.com/quickjkee/eff-diff-edit">Code</a>
+            <a href="https://arxiv.org/abs/2304.04344">Paper</a>
+            <a href="https://colab.research.google.com/drive/1rtu01eOB2gwr_j0gSyzXgkbMUKL_mNIx?usp=sharing">Colab</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/gefest.png" alt="GEFEST teaser">
+        </div>
+        <div class="pub-content">
+          <h3>Generative Design of Physical Objects Using a Modular Framework</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>, Nikolay Nikitin, Elizaveta Andronova, Konstantin Gavaza, Denis Sidorenko, Anna Kaluzhnaya</p>
+          <p class="venue"><span class="venue-badge">EAAI 2023</span></p>
+          <p class="summary">
+            An open-source framework for generative design of engineering objects, including hydrodynamic structures used in biomedical applications.
+          </p>
+          <p class="pub-links">
+            <a href="https://github.com/aimclub/GEFEST">Code</a>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197622007059">Paper</a>
+            <a href="https://arxiv.org/pdf/2207.14621">arXiv</a>
+          </p>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
