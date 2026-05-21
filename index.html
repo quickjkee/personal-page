@@ -22,9 +22,8 @@
           Previously, I worked at <a href="https://en.itmo.ru/">ITMO University</a> on open-source software frameworks.
         </p>
         <p class="bio">
-          My research focuses on efficient generative modeling, with an emphasis on diffusion and few-step models. 
-          I am particularly interested in understanding the underlying mechanisms of generative models, 
-          including how they learn, generalize, and behave.
+          My research focuses on efficient generative modeling in computer vision, with an emphasis on diffusion and few-step models. 
+          I enjoy studying surprising behaviors in generative models and asking why they happen. I value simplicity.
         </p>
         <p class="links">
           <a href="mailto:nstarodubtsev@hse.ru">Email</a>
@@ -44,10 +43,11 @@
     <section class="section">
       <h2>News</h2>
       <div class="news-list">
-        <div class="news-item"><span class="news-date">Jan 2026</span> Our paper <em>Rethinking Global Text Conditioning in Diffusion Transformers</em> was accepted as an <strong>ICLR 2026</strong>.</div>
-        <div class="news-item"><span class="news-date">Jan 2026</span> <em>Scale-wise Distillation of Diffusion Models</em> was accepted as an <strong>ICLR 2026</strong>.</div>
-        <div class="news-item"><span class="news-date">May 2025</span> Start an internship at <strong>Adobe Research</strong>, working on generative models.</div>
-        <div class="news-item"><span class="news-date">Sep 2024</span> <em>Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps</em> appeared at <strong>NeurIPS 2024</strong>.</div>
+        <div class="news-item"><span class="news-date">May 2026</span> New preprint: <em>Registers Matter for Pixel-Space Diffusion Transformers</em>.</div>
+        <div class="news-item"><span class="news-date">Jan 2026</span> Our paper <em>Rethinking Global Text Conditioning in Diffusion Transformers</em> was accepted to <strong>ICLR 2026</strong>.</div>
+        <div class="news-item"><span class="news-date">Jan 2026</span> <em>Scale-wise Distillation of Diffusion Models</em> was accepted to <strong>ICLR 2026</strong>.</div>
+        <div class="news-item"><span class="news-date">May 2025</span> Started an internship at <strong>Adobe Research</strong>, working on generative models.</div>
+        <div class="news-item"><span class="news-date">Sep 2024</span> <em>Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps</em> <br> appeared at <strong>NeurIPS 2024</strong>.</div>
         <div class="news-item"><span class="news-date">Feb 2024</span> <em>Your Student is Better Than Expected: Adaptive Teacher-Student Collaboration for Text-Conditional Diffusion Models</em> was accepted to <strong>CVPR 2024</strong>.</div>
       </div>
     </section>
@@ -57,7 +57,42 @@
     <section class="section">
       <h2>Selected publications</h2>
 
+
       <article class="publication highlight-paper">
+        <div class="thumb-wrap">
+          <img class="thumb" src="images/registers.png" alt="Teaser for Rethinking Global Text Conditioning in Diffusion Transformers">
+        </div>
+        <div class="pub-content">
+          <h3>Registers Matter for Pixel-Space Diffusion Transformers</h3>
+          <p class="authors">
+            <strong>Nikita Starodubcev</strong>, 
+            <a href="https://scholar.google.com/citations?user=R4hnjs4AAAAJ&hl=en">Ilia Sudakov</a>,
+            <a href="https://github.com/free001style">Ilya Drobyshevskiy</a>,
+            <a href="https://scholar.google.com/citations?user=NiPmk8oAAAAJ&hl=en">Dmitry Baranchuk</a>,
+          </p>
+          <p class="venue"><span class="venue-badge">arXiv 2026</span>
+          <p class="summary">
+            <div class="summary">
+              <p class="summary-intro">
+                We show that registers can improve DiTs, especially in pixel-space models, and help explain some of their strong performance.
+              </p>
+            
+              <ol class="summary-points">
+                <li>Pixel-space models benefit the most from registers, while latent-space models show smaller gains or slight drops.</li>
+                <li>Registers reduce patch-token feature norms and make intermediate feature maps smoother, especially at high noise levels.</li>
+                <li>Recent pixel-space DiTs already seem to use register-like behavior implicitly.</li>
+              </ol>
+            </div>
+            
+          </p>
+          <p class="pub-links">
+            <a href="https://arxiv.org/pdf/2605.16147">Paper</a>
+          </p>
+        </div>
+      </article>
+
+
+      <article class="publication">
         <div class="thumb-wrap">
           <img class="thumb" src="images/modulation-guidance.png" alt="Teaser for Rethinking Global Text Conditioning in Diffusion Transformers">
         </div>
@@ -86,6 +121,7 @@
           </p>
         </div>
       </article>
+      
 
       <article class="publication">
         <div class="thumb-wrap">

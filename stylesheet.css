@@ -203,3 +203,22 @@ h2 {
   h2 { font-size: 28px; }
   .bio, .links, .authors, .venue, .summary, .news-item { font-size: 17px; }
 }
+
+.summary-intro {
+  margin: 0 0 6px;
+}
+
+.summary-points {
+  margin: 0;
+  padding-left: 20px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.summary-points li {
+  margin: 0 0 4px;
+}
+
+.summary-points li:last-child {
+  margin-bottom: 0;
+}
